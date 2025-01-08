@@ -1062,3 +1062,10 @@
 [2025-01-08T08:17:06.483+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:06.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-08T08:17:06.505+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:06.504+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.3.0.trans_TransactionSenderDetailsdata to None, run_after=None
 [2025-01-08T08:17:06.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py took 0.134 seconds
+[2025-01-08T08:17:36.997+0000] {processor.py:186} INFO - Started process (PID=2871) to work on /opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py
+[2025-01-08T08:17:36.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py for tasks to queue
+[2025-01-08T08:17:37.005+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:37.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py
+[2025-01-08T08:17:37.063+0000] {processor.py:925} INFO - DAG(s) '1.3.0.trans_TransactionSenderDetailsdata' retrieved from /opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py
+[2025-01-08T08:17:37.097+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:37.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-08T08:17:37.121+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:37.121+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.3.0.trans_TransactionSenderDetailsdata to None, run_after=None
+[2025-01-08T08:17:37.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py took 0.163 seconds

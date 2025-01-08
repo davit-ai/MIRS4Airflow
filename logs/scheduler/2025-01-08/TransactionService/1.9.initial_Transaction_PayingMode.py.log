@@ -1062,3 +1062,10 @@
 [2025-01-08T08:17:05.592+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:05.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-08T08:17:05.612+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:05.611+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.9.0.trans_PayingMode to None, run_after=None
 [2025-01-08T08:17:05.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py took 0.142 seconds
+[2025-01-08T08:17:36.293+0000] {processor.py:186} INFO - Started process (PID=2865) to work on /opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py
+[2025-01-08T08:17:36.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py for tasks to queue
+[2025-01-08T08:17:36.301+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py
+[2025-01-08T08:17:36.377+0000] {processor.py:925} INFO - DAG(s) '1.9.0.trans_PayingMode' retrieved from /opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py
+[2025-01-08T08:17:36.423+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-08T08:17:36.462+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.461+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.9.0.trans_PayingMode to None, run_after=None
+[2025-01-08T08:17:36.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py took 0.218 seconds

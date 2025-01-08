@@ -1062,3 +1062,10 @@
 [2025-01-08T08:17:06.077+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:06.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-08T08:17:06.099+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:06.099+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.6.0.trans_TransactionStatusHistorysdata to None, run_after=None
 [2025-01-08T08:17:06.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py took 0.135 seconds
+[2025-01-08T08:17:36.625+0000] {processor.py:186} INFO - Started process (PID=2868) to work on /opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py
+[2025-01-08T08:17:36.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-01-08T08:17:36.630+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py
+[2025-01-08T08:17:36.692+0000] {processor.py:925} INFO - DAG(s) '1.6.0.trans_TransactionStatusHistorysdata' retrieved from /opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py
+[2025-01-08T08:17:36.737+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-08T08:17:36.778+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.777+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.6.0.trans_TransactionStatusHistorysdata to None, run_after=None
+[2025-01-08T08:17:36.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py took 0.202 seconds

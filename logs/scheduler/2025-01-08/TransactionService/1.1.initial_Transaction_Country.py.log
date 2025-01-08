@@ -1055,3 +1055,10 @@
 [2025-01-08T08:17:09.862+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:09.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-08T08:17:10.081+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:10.080+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.0.0.trans_countrydata to None, run_after=None
 [2025-01-08T08:17:10.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py took 0.367 seconds
+[2025-01-08T08:17:41.189+0000] {processor.py:186} INFO - Started process (PID=2875) to work on /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py
+[2025-01-08T08:17:41.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py for tasks to queue
+[2025-01-08T08:17:41.195+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:41.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py
+[2025-01-08T08:17:41.243+0000] {processor.py:925} INFO - DAG(s) '1.0.0.trans_countrydata' retrieved from /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py
+[2025-01-08T08:17:41.275+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:41.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-08T08:17:41.447+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:41.447+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.0.0.trans_countrydata to None, run_after=None
+[2025-01-08T08:17:41.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py took 0.303 seconds

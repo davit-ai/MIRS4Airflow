@@ -1062,3 +1062,10 @@
 [2025-01-08T08:17:05.861+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:05.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-08T08:17:05.888+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:05.887+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.8.0.trans_TransactionPayingPartnerDetail to None, run_after=None
 [2025-01-08T08:17:05.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py took 0.186 seconds
+[2025-01-08T08:17:36.380+0000] {processor.py:186} INFO - Started process (PID=2866) to work on /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py
+[2025-01-08T08:17:36.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py for tasks to queue
+[2025-01-08T08:17:36.388+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py
+[2025-01-08T08:17:36.443+0000] {processor.py:925} INFO - DAG(s) '1.8.0.trans_TransactionPayingPartnerDetail' retrieved from /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py
+[2025-01-08T08:17:36.503+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-08T08:17:36.536+0000] {logging_mixin.py:190} INFO - [2025-01-08T08:17:36.536+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.8.0.trans_TransactionPayingPartnerDetail to None, run_after=None
+[2025-01-08T08:17:36.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py took 0.198 seconds
