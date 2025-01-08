@@ -1,0 +1,142 @@
+[2025-01-08T05:47:44.231+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-08T05:47:44.247+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 1.5.0.trans_Referencesdata.transfer_data_task manual__2025-01-08T05:42:38.216079+00:00 [queued]>
+[2025-01-08T05:47:44.255+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 1.5.0.trans_Referencesdata.transfer_data_task manual__2025-01-08T05:42:38.216079+00:00 [queued]>
+[2025-01-08T05:47:44.256+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2025-01-08T05:47:44.269+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): transfer_data_task> on 2025-01-08 05:42:38.216079+00:00
+[2025-01-08T05:47:44.273+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=298) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-08T05:47:44.275+0000] {standard_task_runner.py:72} INFO - Started process 299 to run task
+[2025-01-08T05:47:44.275+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', '1.5.0.trans_Referencesdata', 'transfer_data_task', 'manual__2025-01-08T05:42:38.216079+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/TransactionService/1.5.initial_Transaction_Reference.py', '--cfg-path', '/tmp/tmpnt16e321']
+[2025-01-08T05:47:44.276+0000] {standard_task_runner.py:105} INFO - Job 23: Subtask transfer_data_task
+[2025-01-08T05:47:44.315+0000] {task_command.py:467} INFO - Running <TaskInstance: 1.5.0.trans_Referencesdata.transfer_data_task manual__2025-01-08T05:42:38.216079+00:00 [running]> on host 140af152fc10
+[2025-01-08T05:47:44.387+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='1.5.0.trans_Referencesdata' AIRFLOW_CTX_TASK_ID='transfer_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-01-08T05:42:38.216079+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-08T05:42:38.216079+00:00'
+[2025-01-08T05:47:44.388+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-08T05:47:44.409+0000] {base.py:84} INFO - Retrieving connection 'Transaction_db_connection'
+[2025-01-08T05:47:46.460+0000] {logging_mixin.py:190} INFO - source_conn: connected to source db
+[2025-01-08T05:47:46.469+0000] {base.py:84} INFO - Retrieving connection 'Report_db_connection'
+[2025-01-08T05:47:46.510+0000] {logging_mixin.py:190} INFO - dest_conn: connected to destination db
+[2025-01-08T05:47:46.727+0000] {logging_mixin.py:190} INFO - "Code", "Category", "Name", "IsDeleted", "Configuration"
+[2025-01-08T05:47:46.733+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 1
+[2025-01-08T05:47:46.736+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('1', 'COLLECTION_MODE', 'Cash', False, '{"DenoRequired":true}')
+[2025-01-08T05:47:46.743+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.745+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 1
+[2025-01-08T05:47:46.747+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('1', 'CollectionMode', 'Cash', False, None)
+[2025-01-08T05:47:46.751+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.753+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 1
+[2025-01-08T05:47:46.754+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('1', 'DOCUMENT_TYPE', 'INVOICE / PURCHASE ORDER / PROFORMA INVOICE', False, None)
+[2025-01-08T05:47:46.758+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.760+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 1
+[2025-01-08T05:47:46.761+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('1', 'REMITTANCE_REASON', 'Family Maintenance', False, None)
+[2025-01-08T05:47:46.765+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.767+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 1
+[2025-01-08T05:47:46.768+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('1', 'SOURCE_OF_FUND', 'Business Income', False, None)
+[2025-01-08T05:47:46.771+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.773+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 10
+[2025-01-08T05:47:46.774+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('10', 'REMITTANCE_REASON', 'Education', False, None)
+[2025-01-08T05:47:46.777+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.778+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 10
+[2025-01-08T05:47:46.779+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('10', 'SOURCE_OF_FUND', 'Business Cash flow', False, None)
+[2025-01-08T05:47:46.782+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.783+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 11
+[2025-01-08T05:47:46.784+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('11', 'REMITTANCE_REASON', 'Savings', False, None)
+[2025-01-08T05:47:46.787+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.789+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 11
+[2025-01-08T05:47:46.790+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('11', 'SOURCE_OF_FUND', 'Spouse Income', False, None)
+[2025-01-08T05:47:46.793+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.794+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 12
+[2025-01-08T05:47:46.795+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('12', 'REMITTANCE_REASON', 'Employee Colleague or Family maintenance', False, None)
+[2025-01-08T05:47:46.798+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.799+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 12
+[2025-01-08T05:47:46.800+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('12', 'SOURCE_OF_FUND', 'Others', False, None)
+[2025-01-08T05:47:46.803+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.805+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 13
+[2025-01-08T05:47:46.806+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('13', 'REMITTANCE_REASON', 'Business/Investment', False, None)
+[2025-01-08T05:47:46.808+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.810+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 15
+[2025-01-08T05:47:46.811+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('15', 'REMITTANCE_REASON', 'Salary', False, None)
+[2025-01-08T05:47:46.814+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.815+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 16
+[2025-01-08T05:47:46.816+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('16', 'REMITTANCE_REASON', 'Payment of goods and services', False, None)
+[2025-01-08T05:47:46.820+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.821+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 17
+[2025-01-08T05:47:46.822+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('17', 'REMITTANCE_REASON', 'Others', False, None)
+[2025-01-08T05:47:46.825+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.826+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 18
+[2025-01-08T05:47:46.827+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('18', 'REMITTANCE_REASON', 'Personal Expenses', False, None)
+[2025-01-08T05:47:46.830+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.831+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 19
+[2025-01-08T05:47:46.832+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('19', 'REMITTANCE_REASON', 'Payment of Goods', False, None)
+[2025-01-08T05:47:46.836+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.837+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 2
+[2025-01-08T05:47:46.838+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('2', 'COLLECTION_MODE', 'Bank Deposit Slip', False, '{"DenoRequired":false}')
+[2025-01-08T05:47:46.842+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.843+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 2
+[2025-01-08T05:47:46.844+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('2', 'CollectionMode', 'Bank Deposit Slip', False, None)
+[2025-01-08T05:47:46.848+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.849+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 2
+[2025-01-08T05:47:46.850+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('2', 'DOCUMENT_TYPE', 'OTHERS', False, None)
+[2025-01-08T05:47:46.854+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.855+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 2
+[2025-01-08T05:47:46.856+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('2', 'REMITTANCE_REASON', 'Household Maintenance', False, None)
+[2025-01-08T05:47:46.860+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.862+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 2
+[2025-01-08T05:47:46.863+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('2', 'SOURCE_OF_FUND', 'Monthly Income', False, None)
+[2025-01-08T05:47:46.866+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.867+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 20
+[2025-01-08T05:47:46.868+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('20', 'REMITTANCE_REASON', 'Payment of Services', False, None)
+[2025-01-08T05:47:46.871+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.873+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 3
+[2025-01-08T05:47:46.873+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('3', 'COLLECTION_MODE', 'MMCard', False, '{"DenoRequired":false}')
+[2025-01-08T05:47:46.877+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.878+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 3
+[2025-01-08T05:47:46.879+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('3', 'CollectionMode', 'MMCard', False, None)
+[2025-01-08T05:47:46.882+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.884+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 3
+[2025-01-08T05:47:46.885+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('3', 'REMITTANCE_REASON', 'Donation or Gifts', False, None)
+[2025-01-08T05:47:46.888+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.889+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 3
+[2025-01-08T05:47:46.890+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('3', 'SOURCE_OF_FUND', 'Additional Part time Income or Commission', False, None)
+[2025-01-08T05:47:46.893+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.895+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 4
+[2025-01-08T05:47:46.896+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('4', 'REMITTANCE_REASON', 'Payment of Loan', False, None)
+[2025-01-08T05:47:46.899+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.900+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 4
+[2025-01-08T05:47:46.901+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('4', 'SOURCE_OF_FUND', 'Savings', False, None)
+[2025-01-08T05:47:46.904+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.906+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 5
+[2025-01-08T05:47:46.907+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('5', 'REMITTANCE_REASON', 'Purchase of Property', False, None)
+[2025-01-08T05:47:46.910+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.911+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 5
+[2025-01-08T05:47:46.912+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('5', 'SOURCE_OF_FUND', 'Loan from friends', False, None)
+[2025-01-08T05:47:46.915+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.917+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 6
+[2025-01-08T05:47:46.918+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('6', 'REMITTANCE_REASON', 'Funeral Expenses', False, None)
+[2025-01-08T05:47:46.921+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.922+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 6
+[2025-01-08T05:47:46.923+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('6', 'SOURCE_OF_FUND', 'Friends Salary', False, None)
+[2025-01-08T05:47:46.926+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.928+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 7
+[2025-01-08T05:47:46.929+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('7', 'REMITTANCE_REASON', 'Medical Expenses', False, None)
+[2025-01-08T05:47:46.932+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.933+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 7
+[2025-01-08T05:47:46.934+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('7', 'SOURCE_OF_FUND', 'Employee Salary', False, None)
+[2025-01-08T05:47:46.937+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.939+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 8
+[2025-01-08T05:47:46.940+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('8', 'REMITTANCE_REASON', 'Wedding Expenses', False, None)
+[2025-01-08T05:47:46.943+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.944+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 8
+[2025-01-08T05:47:46.945+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('8', 'SOURCE_OF_FUND', 'Family Income', False, None)
+[2025-01-08T05:47:46.948+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.950+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 9
+[2025-01-08T05:47:46.950+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('9', 'REMITTANCE_REASON', 'Payment of bills', False, None)
+[2025-01-08T05:47:46.953+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:46.955+0000] {1.5.initial_Transaction_Reference.py:79} INFO - Deleting existing row for userid: 9
+[2025-01-08T05:47:46.956+0000] {1.5.initial_Transaction_Reference.py:87} INFO - Executing INSERT query with values ('9', 'SOURCE_OF_FUND', 'Prizes or Winnings', False, None)
+[2025-01-08T05:47:46.960+0000] {1.5.initial_Transaction_Reference.py:101} INFO - Data transfer completed successfully and sync details updated.
+[2025-01-08T05:47:47.198+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-08T05:47:47.224+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-08T05:47:47.225+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=1.5.0.trans_Referencesdata, task_id=transfer_data_task, run_id=manual__2025-01-08T05:42:38.216079+00:00, execution_date=20250108T054238, start_date=20250108T054744, end_date=20250108T054747
+[2025-01-08T05:47:47.267+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-08T05:47:47.283+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-08T05:47:47.288+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

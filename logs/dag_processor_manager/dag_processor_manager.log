@@ -1,0 +1,121 @@
+[2025-01-08T05:32:14.772+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-01-08T05:32:14.772+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-01-08T05:32:14.773+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-01-08T05:32:14.774+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-08T05:32:14.778+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2025-01-08T05:37:15.402+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-08T05:37:15.528+0000] {manager.py:824} INFO - There are 12 files in /opt/airflow/dags
+[2025-01-08T05:37:17.161+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py                                                    1           0  0.35s           2025-01-08T05:37:15                      32
+/opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py                                1           0  0.32s           2025-01-08T05:37:15                      32
+/opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py                                       1           0  0.24s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.4.initial_Transaction_Transaction.py                                                   1           0  0.24s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.7.initial_Transaction_TransactionCollectingPartnerDetails.py                           1           0  0.24s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.10.initial_Transaction_Partner.py                                                      1           0  0.22s           2025-01-08T05:37:17                      32
+/opt/airflow/dags/TransactionService/1.2.initial_Transaction_TransactionReceiverDetail.py                                     1           0  0.21s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.5.initial_Transaction_Reference.py                                                     1           0  0.20s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py                                            1           0  0.20s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.11.initial_Transaction_Bank.py                                                         1           0  0.20s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/common_args.py                                                                                              0           0  0.08s           2025-01-08T05:37:15                       3
+/opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py                                128  0.22s             0           0                                                            0
+================================================================================
+[2025-01-08T05:37:47.199+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py                                       1           0  0.24s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.4.initial_Transaction_Transaction.py                                                   1           0  0.24s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py                                                       1           0  0.22s           2025-01-08T05:37:17                      32
+/opt/airflow/dags/TransactionService/1.10.initial_Transaction_Partner.py                                                      1           0  0.22s           2025-01-08T05:37:17                      32
+/opt/airflow/dags/TransactionService/1.2.initial_Transaction_TransactionReceiverDetail.py                                     1           0  0.21s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.5.initial_Transaction_Reference.py                              140  0.00s             1           0  0.20s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py                     139  0.01s             1           0  0.20s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.11.initial_Transaction_Bank.py                                                         1           0  0.20s           2025-01-08T05:37:16                      32
+/opt/airflow/dags/TransactionService/1.7.initial_Transaction_TransactionCollectingPartnerDetails.py                           1           0  0.13s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py                                1           0  0.12s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py                                                    1           0  0.12s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/common_args.py                                                                                              0           0  0.04s           2025-01-08T05:37:45                       3
+================================================================================
+[2025-01-08T05:38:17.608+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py                                       1           0  0.17s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.10.initial_Transaction_Partner.py                                                      1           0  0.13s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py                                                       1           0  0.13s           2025-01-08T05:37:48                      10
+/opt/airflow/dags/TransactionService/1.7.initial_Transaction_TransactionCollectingPartnerDetails.py                           1           0  0.13s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.4.initial_Transaction_Transaction.py                                                   1           0  0.13s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.5.initial_Transaction_Reference.py                                                     1           0  0.13s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.11.initial_Transaction_Bank.py                                                         1           0  0.13s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py         155  0.00s             1           0  0.12s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.2.initial_Transaction_TransactionReceiverDetail.py                                     1           0  0.12s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py                                            1           0  0.12s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py                             154  0.01s             1           0  0.12s           2025-01-08T05:37:47                      10
+/opt/airflow/dags/common_args.py                                                                                              0           0  0.09s           2025-01-08T05:38:16                       3
+================================================================================
+[2025-01-08T05:38:48.172+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/TransactionService/1.2.initial_Transaction_TransactionReceiverDetail.py                                     1           0  0.19s           2025-01-08T05:38:18                      10
+/opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py                                       1           0  0.17s           2025-01-08T05:38:18                      10
+/opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py         174  0.00s             1           0  0.15s           2025-01-08T05:38:17                      10
+/opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py                             173  0.01s             1           0  0.15s           2025-01-08T05:38:17                      10
+/opt/airflow/dags/TransactionService/1.11.initial_Transaction_Bank.py                                                         1           0  0.15s           2025-01-08T05:38:18                      10
+/opt/airflow/dags/TransactionService/1.4.initial_Transaction_Transaction.py                                                   1           0  0.14s           2025-01-08T05:38:18                      10
+/opt/airflow/dags/TransactionService/1.7.initial_Transaction_TransactionCollectingPartnerDetails.py                           1           0  0.13s           2025-01-08T05:38:17                      10
+/opt/airflow/dags/TransactionService/1.5.initial_Transaction_Reference.py                                                     1           0  0.12s           2025-01-08T05:38:18                      10
+/opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py                                            1           0  0.12s           2025-01-08T05:38:18                      10
+/opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py                                                       1           0  0.11s           2025-01-08T05:38:18                      10
+/opt/airflow/dags/TransactionService/1.10.initial_Transaction_Partner.py                                                      1           0  0.11s           2025-01-08T05:38:18                      10
+/opt/airflow/dags/common_args.py                                                                                              0           0  0.07s           2025-01-08T05:38:47                       3
+================================================================================
+[2025-01-08T05:39:19.200+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py                                       1           0  0.22s           2025-01-08T05:38:49                      10
+/opt/airflow/dags/TransactionService/1.11.initial_Transaction_Bank.py                                                         1           0  0.20s           2025-01-08T05:38:49                      10
+/opt/airflow/dags/TransactionService/1.2.initial_Transaction_TransactionReceiverDetail.py                                     1           0  0.19s           2025-01-08T05:38:49                      10
+/opt/airflow/dags/TransactionService/1.7.initial_Transaction_TransactionCollectingPartnerDetails.py                           1           0  0.18s           2025-01-08T05:38:48                      10
+/opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py         192  0.00s             1           0  0.18s           2025-01-08T05:38:48                      10
+/opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py                             191  0.01s             1           0  0.17s           2025-01-08T05:38:48                      10
+/opt/airflow/dags/TransactionService/1.4.initial_Transaction_Transaction.py                                                   1           0  0.16s           2025-01-08T05:38:48                      10
+/opt/airflow/dags/TransactionService/1.5.initial_Transaction_Reference.py                                                     1           0  0.14s           2025-01-08T05:38:48                      10
+/opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py                                                       1           0  0.14s           2025-01-08T05:38:49                      10
+/opt/airflow/dags/TransactionService/1.10.initial_Transaction_Partner.py                                                      1           0  0.13s           2025-01-08T05:38:49                      10
+/opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py                                            1           0  0.12s           2025-01-08T05:38:48                      10
+/opt/airflow/dags/common_args.py                                                                                              0           0  0.04s           2025-01-08T05:39:18                       3
+================================================================================
+[2025-01-08T05:39:50.028+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/TransactionService/1.2.initial_Transaction_TransactionReceiverDetail.py                                     1           0  0.14s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.1.initial_Transaction_Country.py                                                       1           0  0.13s           2025-01-08T05:39:20                      10
+/opt/airflow/dags/TransactionService/1.5.initial_Transaction_Reference.py                                                     1           0  0.12s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.10.initial_Transaction_Partner.py                                                      1           0  0.12s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.3.initial_Transaction_TransactionSenderDetail.py                                       1           0  0.12s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.6.initial_Transaction_TransactionHistory.py                                            1           0  0.11s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.9.initial_Transaction_PayingMode.py                             209  0.02s             1           0  0.11s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.11.initial_Transaction_Bank.py                                                         1           0  0.11s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.4.initial_Transaction_Transaction.py                                                   1           0  0.11s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.7.initial_Transaction_TransactionCollectingPartnerDetails.py                           1           0  0.11s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionPayingPartnerDetail.py         210  0.00s             1           0  0.10s           2025-01-08T05:39:19                      10
+/opt/airflow/dags/common_args.py                                                                                              0           0  0.05s           2025-01-08T05:39:48                       3
+================================================================================
