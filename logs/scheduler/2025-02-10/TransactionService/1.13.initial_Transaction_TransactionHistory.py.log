@@ -1,0 +1,651 @@
+[2025-02-10T06:05:32.598+0000] {processor.py:186} INFO - Started process (PID=3145) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:05:32.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:05:32.603+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:05:32.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:05:32.712+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:05:33.193+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:05:33.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:05:33.224+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:05:33.223+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:05:33.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.688 seconds
+[2025-02-10T06:06:03.478+0000] {processor.py:186} INFO - Started process (PID=3165) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:06:03.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:06:03.482+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:06:03.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:06:03.536+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:06:03.830+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:06:03.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:06:03.858+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:06:03.858+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:06:03.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.447 seconds
+[2025-02-10T06:06:34.654+0000] {processor.py:186} INFO - Started process (PID=3185) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:06:34.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:06:34.659+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:06:34.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:06:34.702+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:06:34.741+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:06:34.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:06:34.978+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:06:34.978+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:06:35.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.378 seconds
+[2025-02-10T06:07:05.193+0000] {processor.py:186} INFO - Started process (PID=3205) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:07:05.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:07:05.197+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:07:05.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:07:05.222+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:07:05.250+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:07:05.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:07:05.267+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:07:05.266+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:07:05.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.115 seconds
+[2025-02-10T06:07:35.905+0000] {processor.py:186} INFO - Started process (PID=3225) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:07:35.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:07:35.908+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:07:35.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:07:35.935+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:07:35.965+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:07:35.965+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:07:35.982+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:07:35.982+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:07:36.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.111 seconds
+[2025-02-10T06:08:06.613+0000] {processor.py:186} INFO - Started process (PID=3245) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:08:06.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:08:06.617+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:08:06.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:08:06.666+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:08:06.741+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:08:06.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:08:06.786+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:08:06.786+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:08:06.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.224 seconds
+[2025-02-10T06:08:37.188+0000] {processor.py:186} INFO - Started process (PID=3265) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:08:37.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:08:37.191+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:08:37.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:08:37.217+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:08:37.244+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:08:37.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:08:37.260+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:08:37.260+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:08:37.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.100 seconds
+[2025-02-10T06:09:07.536+0000] {processor.py:186} INFO - Started process (PID=3285) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:09:07.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:09:07.540+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:09:07.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:09:07.568+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:09:07.598+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:09:07.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:09:07.616+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:09:07.616+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:09:07.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.112 seconds
+[2025-02-10T06:09:38.171+0000] {processor.py:186} INFO - Started process (PID=3305) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:09:38.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:09:38.174+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:09:38.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:09:38.212+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:09:38.239+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:09:38.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:09:38.261+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:09:38.260+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:09:38.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.137 seconds
+[2025-02-10T06:10:08.844+0000] {processor.py:186} INFO - Started process (PID=3332) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:10:08.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:10:08.847+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:10:08.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:10:08.890+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:10:08.924+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:10:08.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:10:08.943+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:10:08.943+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:10:08.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.144 seconds
+[2025-02-10T06:10:39.099+0000] {processor.py:186} INFO - Started process (PID=3352) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:10:39.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:10:39.103+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:10:39.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:10:39.129+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:10:39.158+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:10:39.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:10:39.175+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:10:39.175+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:10:39.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.116 seconds
+[2025-02-10T06:11:09.850+0000] {processor.py:186} INFO - Started process (PID=3372) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:11:09.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:11:09.853+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:11:09.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:11:09.878+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:11:09.904+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:11:09.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:11:09.921+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:11:09.920+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:11:09.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.100 seconds
+[2025-02-10T06:11:40.492+0000] {processor.py:186} INFO - Started process (PID=3392) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:11:40.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:11:40.497+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:11:40.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:11:40.523+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:11:40.554+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:11:40.553+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:11:40.582+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:11:40.581+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:11:40.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.138 seconds
+[2025-02-10T06:12:11.250+0000] {processor.py:186} INFO - Started process (PID=3412) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:12:11.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:12:11.261+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:12:11.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:12:11.304+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:12:11.361+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:12:11.361+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:12:11.392+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:12:11.391+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:12:11.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.195 seconds
+[2025-02-10T06:12:41.735+0000] {processor.py:186} INFO - Started process (PID=3432) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:12:41.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:12:41.738+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:12:41.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:12:41.763+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:12:41.795+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:12:41.794+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:12:41.813+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:12:41.813+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:12:41.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.119 seconds
+[2025-02-10T06:13:12.154+0000] {processor.py:186} INFO - Started process (PID=3453) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:13:12.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:13:12.157+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:13:12.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:13:12.178+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:13:12.204+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:13:12.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:13:12.219+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:13:12.219+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:13:12.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.107 seconds
+[2025-02-10T06:13:42.558+0000] {processor.py:186} INFO - Started process (PID=3474) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:13:42.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:13:42.560+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:13:42.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:13:42.588+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:13:42.618+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:13:42.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:13:42.637+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:13:42.637+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:13:42.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.115 seconds
+[2025-02-10T06:14:13.290+0000] {processor.py:186} INFO - Started process (PID=3494) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:14:13.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:14:13.293+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:14:13.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:14:13.319+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:14:13.348+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:14:13.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:14:13.372+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:14:13.372+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:14:13.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.117 seconds
+[2025-02-10T06:14:43.940+0000] {processor.py:186} INFO - Started process (PID=3514) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:14:43.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:14:43.943+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:14:43.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:14:43.973+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:14:44.003+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:14:44.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:14:44.023+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:14:44.023+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:14:44.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.117 seconds
+[2025-02-10T06:15:14.500+0000] {processor.py:186} INFO - Started process (PID=3534) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:15:14.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:15:14.502+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:15:14.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:15:14.529+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:15:14.557+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:15:14.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:15:14.573+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:15:14.573+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:15:14.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.105 seconds
+[2025-02-10T06:15:45.438+0000] {processor.py:186} INFO - Started process (PID=3554) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:15:45.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:15:45.441+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:15:45.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:15:45.466+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:15:45.494+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:15:45.493+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:15:45.516+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:15:45.516+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:15:45.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.110 seconds
+[2025-02-10T06:16:16.082+0000] {processor.py:186} INFO - Started process (PID=3574) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:16:16.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:16:16.085+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:16:16.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:16:16.110+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:16:16.137+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:16:16.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:16:16.161+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:16:16.160+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:16:16.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.120 seconds
+[2025-02-10T06:16:46.749+0000] {processor.py:186} INFO - Started process (PID=3594) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:16:46.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:16:46.753+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:16:46.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:16:46.792+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:16:46.845+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:16:46.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:16:46.877+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:16:46.877+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:16:46.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.172 seconds
+[2025-02-10T06:17:17.175+0000] {processor.py:186} INFO - Started process (PID=3614) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:17:17.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:17:17.178+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:17:17.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:17:17.209+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:17:17.244+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:17:17.244+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:17:17.261+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:17:17.261+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:17:17.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.123 seconds
+[2025-02-10T06:17:47.725+0000] {processor.py:186} INFO - Started process (PID=3634) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:17:47.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:17:47.728+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:17:47.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:17:47.753+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:17:47.783+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:17:47.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:17:47.802+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:17:47.801+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:17:47.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.109 seconds
+[2025-02-10T06:18:18.077+0000] {processor.py:186} INFO - Started process (PID=3654) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:18:18.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:18:18.080+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:18:18.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:18:18.114+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:18:18.165+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:18:18.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:18:18.187+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:18:18.187+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:18:18.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.147 seconds
+[2025-02-10T06:18:48.720+0000] {processor.py:186} INFO - Started process (PID=3674) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:18:48.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:18:48.723+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:18:48.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:18:48.754+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:18:48.785+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:18:48.785+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:18:48.803+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:18:48.802+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:18:48.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.117 seconds
+[2025-02-10T06:19:19.425+0000] {processor.py:186} INFO - Started process (PID=3694) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:19:19.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:19:19.428+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:19:19.427+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:19:19.453+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:19:19.482+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:19:19.482+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:19:19.500+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:19:19.500+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:19:19.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.108 seconds
+[2025-02-10T06:19:50.048+0000] {processor.py:186} INFO - Started process (PID=3714) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:19:50.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:19:50.052+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:19:50.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:19:50.085+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:19:50.119+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:19:50.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:19:50.139+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:19:50.139+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:19:50.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.128 seconds
+[2025-02-10T06:20:20.594+0000] {processor.py:186} INFO - Started process (PID=3734) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:20:20.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:20:20.597+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:20:20.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:20:20.625+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:20:20.657+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:20:20.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:20:20.683+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:20:20.683+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:20:20.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.121 seconds
+[2025-02-10T06:20:50.801+0000] {processor.py:186} INFO - Started process (PID=3754) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:20:50.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:20:50.804+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:20:50.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:20:50.828+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:20:50.854+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:20:50.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:20:50.876+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:20:50.876+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:20:50.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.106 seconds
+[2025-02-10T06:21:21.581+0000] {processor.py:186} INFO - Started process (PID=3774) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:21:21.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:21:21.584+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:21:21.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:21:21.614+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:21:21.645+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:21:21.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:21:21.668+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:21:21.668+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:21:21.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.121 seconds
+[2025-02-10T06:21:52.188+0000] {processor.py:186} INFO - Started process (PID=3794) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:21:52.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:21:52.191+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:21:52.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:21:52.216+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:21:52.246+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:21:52.246+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:21:52.265+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:21:52.265+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:21:52.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.114 seconds
+[2025-02-10T06:22:22.779+0000] {processor.py:186} INFO - Started process (PID=3814) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:22:22.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:22:22.781+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:22:22.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:22:22.805+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:22:22.834+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:22:22.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:22:22.853+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:22:22.853+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:22:22.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.112 seconds
+[2025-02-10T06:22:53.460+0000] {processor.py:186} INFO - Started process (PID=3834) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:22:53.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:22:53.462+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:22:53.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:22:53.487+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:22:53.515+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:22:53.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:22:53.535+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:22:53.535+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:22:53.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.109 seconds
+[2025-02-10T06:23:24.126+0000] {processor.py:186} INFO - Started process (PID=3854) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:23:24.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:23:24.130+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:23:24.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:23:24.155+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:23:24.184+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:23:24.183+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:23:24.200+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:23:24.200+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:23:24.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.108 seconds
+[2025-02-10T06:23:54.598+0000] {processor.py:186} INFO - Started process (PID=3874) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:23:54.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:23:54.601+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:23:54.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:23:54.623+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:23:54.653+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:23:54.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:23:54.675+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:23:54.675+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:23:54.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.111 seconds
+[2025-02-10T06:24:25.186+0000] {processor.py:186} INFO - Started process (PID=3894) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:24:25.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:24:25.188+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:24:25.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:24:25.213+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:24:25.241+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:24:25.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:24:25.259+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:24:25.258+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:24:25.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.105 seconds
+[2025-02-10T06:24:55.894+0000] {processor.py:186} INFO - Started process (PID=3915) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:24:55.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:24:55.898+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:24:55.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:24:55.932+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:24:55.975+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:24:55.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:24:55.999+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:24:55.999+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:24:56.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.141 seconds
+[2025-02-10T06:25:26.388+0000] {processor.py:186} INFO - Started process (PID=3935) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:25:26.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:25:26.390+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:25:26.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:25:26.418+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:25:26.450+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:25:26.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:25:26.466+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:25:26.466+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:25:26.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.108 seconds
+[2025-02-10T06:25:57.244+0000] {processor.py:186} INFO - Started process (PID=3955) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:25:57.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:25:57.248+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:25:57.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:25:57.296+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:25:57.348+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:25:57.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:25:57.375+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:25:57.375+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:25:57.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.180 seconds
+[2025-02-10T06:26:27.790+0000] {processor.py:186} INFO - Started process (PID=3975) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:26:27.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:26:27.794+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:26:27.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:26:27.827+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:26:27.863+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:26:27.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:26:27.884+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:26:27.883+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:26:27.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.129 seconds
+[2025-02-10T06:26:58.377+0000] {processor.py:186} INFO - Started process (PID=3995) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:26:58.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:26:58.380+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:26:58.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:26:58.418+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:26:58.454+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:26:58.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:26:58.474+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:26:58.474+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:26:58.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.128 seconds
+[2025-02-10T06:27:28.832+0000] {processor.py:186} INFO - Started process (PID=4015) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:27:28.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T06:27:28.836+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:27:28.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:27:28.868+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T06:27:28.906+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:27:28.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T06:27:28.929+0000] {logging_mixin.py:190} INFO - [2025-02-10T06:27:28.929+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T06:27:28.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.134 seconds
+[2025-02-10T07:21:50.894+0000] {processor.py:186} INFO - Started process (PID=4018) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:21:50.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:21:50.899+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:21:50.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:21:50.948+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:21:50.997+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:21:50.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:21:51.030+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:21:51.029+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:21:51.063+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.182 seconds
+[2025-02-10T07:22:22.041+0000] {processor.py:186} INFO - Started process (PID=4038) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:22:22.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:22:22.046+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:22:22.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:22:22.104+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:22:22.154+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:22:22.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:22:22.181+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:22:22.181+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:22:22.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.195 seconds
+[2025-02-10T07:22:52.966+0000] {processor.py:186} INFO - Started process (PID=4058) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:22:52.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:22:52.968+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:22:52.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:22:52.991+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:22:53.019+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:22:53.019+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:22:53.038+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:22:53.038+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:22:53.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.103 seconds
+[2025-02-10T07:23:23.946+0000] {processor.py:186} INFO - Started process (PID=4078) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:23:23.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:23:23.948+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:23:23.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:23:23.969+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:23:23.995+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:23:23.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:23:24.011+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:23:24.011+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:23:24.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.097 seconds
+[2025-02-10T07:23:54.220+0000] {processor.py:186} INFO - Started process (PID=4098) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:23:54.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:23:54.222+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:23:54.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:23:54.245+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:23:54.270+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:23:54.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:23:54.286+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:23:54.285+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:23:54.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.095 seconds
+[2025-02-10T07:24:24.951+0000] {processor.py:186} INFO - Started process (PID=4118) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:24:24.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:24:24.954+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:24:24.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:24:24.976+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:24:25.001+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:24:25.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:24:25.019+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:24:25.018+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:24:25.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.099 seconds
+[2025-02-10T07:24:55.416+0000] {processor.py:186} INFO - Started process (PID=4138) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:24:55.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:24:55.420+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:24:55.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:24:55.444+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:24:55.470+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:24:55.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:24:55.486+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:24:55.485+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:24:55.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.098 seconds
+[2025-02-10T07:25:26.072+0000] {processor.py:186} INFO - Started process (PID=4158) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:25:26.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:25:26.077+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:25:26.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:25:26.112+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:25:26.157+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:25:26.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:25:26.182+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:25:26.181+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:25:26.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.154 seconds
+[2025-02-10T07:25:56.456+0000] {processor.py:186} INFO - Started process (PID=4182) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:25:56.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:25:56.460+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:25:56.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:25:56.528+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:25:56.596+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:25:56.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:25:56.639+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:25:56.638+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:25:56.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.247 seconds
+[2025-02-10T07:26:26.853+0000] {processor.py:186} INFO - Started process (PID=4202) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:26:26.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:26:26.857+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:26:26.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:26:26.904+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:26:26.945+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:26:26.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:26:26.972+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:26:26.972+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:26:27.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.158 seconds
+[2025-02-10T07:26:57.987+0000] {processor.py:186} INFO - Started process (PID=4222) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:26:57.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:26:57.991+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:26:57.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:26:58.018+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:26:58.045+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:26:58.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:26:58.061+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:26:58.061+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:26:58.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.107 seconds
+[2025-02-10T07:27:28.552+0000] {processor.py:186} INFO - Started process (PID=4242) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:27:28.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:27:28.554+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:27:28.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:27:28.583+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:27:28.613+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:27:28.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:27:28.629+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:27:28.629+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:27:28.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.111 seconds
+[2025-02-10T07:27:59.354+0000] {processor.py:186} INFO - Started process (PID=4268) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:27:59.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:27:59.357+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:27:59.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:27:59.381+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:27:59.406+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:27:59.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:27:59.422+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:27:59.422+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:27:59.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.099 seconds
+[2025-02-10T07:28:29.892+0000] {processor.py:186} INFO - Started process (PID=4288) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:28:29.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:28:29.894+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:28:29.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:28:29.916+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:28:29.942+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:28:29.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:28:29.958+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:28:29.958+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:28:29.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.094 seconds
+[2025-02-10T07:29:00.886+0000] {processor.py:186} INFO - Started process (PID=4308) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:29:00.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:29:00.890+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:29:00.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:29:00.931+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:29:00.972+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:29:00.971+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:29:00.993+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:29:00.993+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:29:01.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.151 seconds
+[2025-02-10T07:29:31.139+0000] {processor.py:186} INFO - Started process (PID=4328) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:29:31.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:29:31.142+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:29:31.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:29:31.173+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:29:31.206+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:29:31.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:29:31.227+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:29:31.227+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:29:31.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.125 seconds
+[2025-02-10T07:30:01.388+0000] {processor.py:186} INFO - Started process (PID=4348) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:30:01.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:30:01.392+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:30:01.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:30:01.422+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:30:01.460+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:30:01.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:30:01.482+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:30:01.481+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:30:01.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.129 seconds
+[2025-02-10T07:30:31.639+0000] {processor.py:186} INFO - Started process (PID=4368) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:30:31.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:30:31.643+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:30:31.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:30:31.677+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:30:31.709+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:30:31.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:30:31.727+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:30:31.727+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:30:31.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.128 seconds
+[2025-02-10T07:31:01.983+0000] {processor.py:186} INFO - Started process (PID=4388) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:31:01.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:31:01.986+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:31:01.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:31:02.009+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:31:02.036+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:31:02.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:31:02.052+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:31:02.052+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:31:02.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.100 seconds
+[2025-02-10T07:31:32.220+0000] {processor.py:186} INFO - Started process (PID=4408) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:31:32.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:31:32.224+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:31:32.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:31:32.247+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:31:32.274+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:31:32.274+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:31:32.290+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:31:32.289+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:31:32.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.101 seconds
+[2025-02-10T07:32:02.638+0000] {processor.py:186} INFO - Started process (PID=4428) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:32:02.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:32:02.641+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:32:02.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:32:02.663+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:32:02.695+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:32:02.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:32:02.715+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:32:02.715+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:32:02.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.109 seconds
+[2025-02-10T07:32:33.559+0000] {processor.py:186} INFO - Started process (PID=4448) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:32:33.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:32:33.561+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:32:33.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:32:33.583+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:32:33.612+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:32:33.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:32:33.633+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:32:33.633+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:32:33.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.112 seconds
+[2025-02-10T07:33:04.370+0000] {processor.py:186} INFO - Started process (PID=4468) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:33:04.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:33:04.374+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:33:04.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:33:04.408+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:33:04.441+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:33:04.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:33:04.457+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:33:04.457+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:33:04.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.116 seconds
+[2025-02-10T07:33:35.330+0000] {processor.py:186} INFO - Started process (PID=4488) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:33:35.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:33:35.332+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:33:35.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:33:35.356+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:33:35.383+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:33:35.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:33:35.398+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:33:35.398+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:33:35.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.097 seconds
+[2025-02-10T07:34:06.206+0000] {processor.py:186} INFO - Started process (PID=4508) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:34:06.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:34:06.209+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:34:06.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:34:06.233+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:34:06.261+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:34:06.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:34:06.293+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:34:06.293+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:34:06.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.118 seconds
+[2025-02-10T07:34:37.056+0000] {processor.py:186} INFO - Started process (PID=4528) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:34:37.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:34:37.059+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:34:37.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:34:37.079+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:34:37.104+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:34:37.104+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:34:37.120+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:34:37.120+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:34:37.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.091 seconds
+[2025-02-10T07:35:07.895+0000] {processor.py:186} INFO - Started process (PID=4548) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:35:07.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:35:07.898+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:35:07.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:35:07.936+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:35:07.980+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:35:07.980+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:35:08.004+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:35:08.004+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:35:08.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.152 seconds
+[2025-02-10T07:35:38.737+0000] {processor.py:186} INFO - Started process (PID=4568) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:35:38.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:35:38.740+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:35:38.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:35:38.767+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:35:38.795+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:35:38.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:35:38.818+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:35:38.817+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:35:38.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.114 seconds
+[2025-02-10T07:36:09.446+0000] {processor.py:186} INFO - Started process (PID=4588) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:36:09.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:36:09.448+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:36:09.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:36:09.470+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:36:09.496+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:36:09.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:36:09.512+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:36:09.512+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:36:09.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.104 seconds
+[2025-02-10T07:36:40.166+0000] {processor.py:186} INFO - Started process (PID=4608) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:36:40.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:36:40.168+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:36:40.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:36:40.192+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:36:40.218+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:36:40.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:36:40.233+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:36:40.233+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:36:40.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.098 seconds
+[2025-02-10T07:37:11.175+0000] {processor.py:186} INFO - Started process (PID=4629) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:37:11.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:37:11.178+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:37:11.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:37:11.205+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:37:11.235+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:37:11.234+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:37:11.252+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:37:11.252+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:37:11.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.110 seconds
+[2025-02-10T07:37:42.100+0000] {processor.py:186} INFO - Started process (PID=4649) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:37:42.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:37:42.103+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:37:42.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:37:42.127+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:37:42.154+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:37:42.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:37:42.173+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:37:42.173+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:37:42.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.104 seconds
+[2025-02-10T07:38:12.278+0000] {processor.py:186} INFO - Started process (PID=4669) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:38:12.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:38:12.281+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:38:12.281+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:38:12.306+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:38:12.333+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:38:12.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:38:12.349+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:38:12.349+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:38:12.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.104 seconds
+[2025-02-10T07:38:43.015+0000] {processor.py:186} INFO - Started process (PID=4689) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:38:43.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:38:43.019+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:38:43.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:38:43.051+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:38:43.089+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:38:43.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:38:43.109+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:38:43.108+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:38:43.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.129 seconds
+[2025-02-10T07:39:14.051+0000] {processor.py:186} INFO - Started process (PID=4709) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:39:14.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:39:14.056+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:39:14.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:39:14.092+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:39:14.156+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:39:14.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:39:14.202+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:39:14.200+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:39:14.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.215 seconds
+[2025-02-10T07:39:44.416+0000] {processor.py:186} INFO - Started process (PID=4729) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:39:44.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:39:44.421+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:39:44.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:39:44.471+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:39:44.523+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:39:44.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:39:44.546+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:39:44.545+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:39:44.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.167 seconds
+[2025-02-10T07:40:15.291+0000] {processor.py:186} INFO - Started process (PID=4749) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:40:15.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:40:15.294+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:40:15.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:40:15.316+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:40:15.342+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:40:15.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:40:15.360+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:40:15.360+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:40:15.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.097 seconds
+[2025-02-10T07:40:46.061+0000] {processor.py:186} INFO - Started process (PID=4769) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:40:46.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:40:46.064+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:40:46.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:40:46.084+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:40:46.110+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:40:46.110+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:40:46.126+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:40:46.126+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:40:46.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.097 seconds
+[2025-02-10T07:41:16.638+0000] {processor.py:186} INFO - Started process (PID=4789) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:41:16.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:41:16.640+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:41:16.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:41:16.662+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:41:16.687+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:41:16.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:41:16.706+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:41:16.706+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:41:16.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.107 seconds
+[2025-02-10T07:41:47.417+0000] {processor.py:186} INFO - Started process (PID=4809) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:41:47.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:41:47.420+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:41:47.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:41:47.450+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:41:47.481+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:41:47.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:41:47.502+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:41:47.501+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:41:47.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.118 seconds
+[2025-02-10T07:42:17.692+0000] {processor.py:186} INFO - Started process (PID=4829) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:42:17.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:42:17.695+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:42:17.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:42:17.720+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:42:17.747+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:42:17.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:42:17.766+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:42:17.766+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:42:17.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.106 seconds
+[2025-02-10T07:42:48.500+0000] {processor.py:186} INFO - Started process (PID=4849) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:42:48.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:42:48.503+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:42:48.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:42:48.529+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:42:48.555+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:42:48.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:42:48.574+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:42:48.573+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:42:48.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.106 seconds
+[2025-02-10T07:43:19.460+0000] {processor.py:186} INFO - Started process (PID=4869) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:43:19.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:43:19.464+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:43:19.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:43:19.497+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:43:19.532+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:43:19.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:43:19.554+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:43:19.554+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:43:19.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.127 seconds
+[2025-02-10T07:43:49.706+0000] {processor.py:186} INFO - Started process (PID=4889) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:43:49.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:43:49.709+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:43:49.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:43:49.735+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:43:49.763+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:43:49.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:43:49.781+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:43:49.781+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:43:49.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.106 seconds
+[2025-02-10T07:44:20.427+0000] {processor.py:186} INFO - Started process (PID=4909) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:44:20.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:44:20.430+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:44:20.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:44:20.451+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:44:20.479+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:44:20.479+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:44:20.499+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:44:20.499+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:44:20.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.104 seconds
+[2025-02-10T07:44:51.079+0000] {processor.py:186} INFO - Started process (PID=4929) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:44:51.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:44:51.082+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:44:51.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:44:51.109+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:44:51.143+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:44:51.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:44:51.162+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:44:51.162+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:44:51.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.124 seconds
+[2025-02-10T07:45:22.025+0000] {processor.py:186} INFO - Started process (PID=4949) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:45:22.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:45:22.028+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:45:22.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:45:22.053+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:45:22.088+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:45:22.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:45:22.104+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:45:22.104+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:45:22.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.109 seconds
+[2025-02-10T07:45:52.802+0000] {processor.py:186} INFO - Started process (PID=4969) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:45:52.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:45:52.805+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:45:52.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:45:52.828+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:45:52.857+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:45:52.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:45:52.873+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:45:52.873+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:45:52.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.101 seconds
+[2025-02-10T07:46:23.579+0000] {processor.py:186} INFO - Started process (PID=4989) to work on /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:46:23.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py for tasks to queue
+[2025-02-10T07:46:23.582+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:23.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:46:23.611+0000] {processor.py:925} INFO - DAG(s) '1.13.initial_TransactionStatusHistory' retrieved from /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py
+[2025-02-10T07:46:23.644+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:23.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:46:23.664+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:23.664+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.13.initial_TransactionStatusHistory to None, run_after=None
+[2025-02-10T07:46:23.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.13.initial_Transaction_TransactionHistory.py took 0.120 seconds

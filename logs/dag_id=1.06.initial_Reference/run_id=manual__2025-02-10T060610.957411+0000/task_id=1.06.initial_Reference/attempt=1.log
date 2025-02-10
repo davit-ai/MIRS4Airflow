@@ -1,0 +1,110 @@
+[2025-02-10T06:06:13.058+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-10T06:06:13.092+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 1.06.initial_Reference.1.06.initial_Reference manual__2025-02-10T06:06:10.957411+00:00 [queued]>
+[2025-02-10T06:06:13.109+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 1.06.initial_Reference.1.06.initial_Reference manual__2025-02-10T06:06:10.957411+00:00 [queued]>
+[2025-02-10T06:06:13.110+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-10T06:06:13.138+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): 1.06.initial_Reference> on 2025-02-10 06:06:10.957411+00:00
+[2025-02-10T06:06:13.151+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1239) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-10T06:06:13.153+0000] {standard_task_runner.py:72} INFO - Started process 1240 to run task
+[2025-02-10T06:06:13.153+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', '1.06.initial_Reference', '1.06.initial_Reference', 'manual__2025-02-10T06:06:10.957411+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/TransactionService/1.6.initial_Transaction_Reference.py', '--cfg-path', '/tmp/tmps83ogz8q']
+[2025-02-10T06:06:13.155+0000] {standard_task_runner.py:105} INFO - Job 26: Subtask 1.06.initial_Reference
+[2025-02-10T06:06:13.239+0000] {task_command.py:467} INFO - Running <TaskInstance: 1.06.initial_Reference.1.06.initial_Reference manual__2025-02-10T06:06:10.957411+00:00 [running]> on host f8e600115ac1
+[2025-02-10T06:06:13.391+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='1.06.initial_Reference' AIRFLOW_CTX_TASK_ID='1.06.initial_Reference' AIRFLOW_CTX_EXECUTION_DATE='2025-02-10T06:06:10.957411+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-10T06:06:10.957411+00:00'
+[2025-02-10T06:06:13.393+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-10T06:06:13.436+0000] {base.py:84} INFO - Retrieving connection 'TransactionDB_MSSQL'
+[2025-02-10T06:06:13.449+0000] {base.py:84} INFO - Retrieving connection 'ReportDB_Postgres'
+[2025-02-10T06:06:16.331+0000] {1.6.initial_Transaction_Reference.py:60} INFO - Connected to source database.
+[2025-02-10T06:06:17.865+0000] {1.6.initial_Transaction_Reference.py:64} INFO - Connected to destination database.
+[2025-02-10T06:06:18.479+0000] {1.6.initial_Transaction_Reference.py:43} INFO - Destination columns: ['"Code"', '"Category"', '"Name"', '"IsDeleted"', '"Configuration"', '"CreatedAt"', '"CreatedBy"', '"CreatedByName"', '"UpdatedAt"', '"UpdatedBy"', '"UpdatedByName"']
+[2025-02-10T06:06:18.787+0000] {1.6.initial_Transaction_Reference.py:73} INFO - Destination table truncated.
+[2025-02-10T06:06:19.095+0000] {1.6.initial_Transaction_Reference.py:115} ERROR - Error occurred while transferring data: ('22007', '[22007] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The conversion of a datetimeoffset data type to a datetime data type resulted in an out-of-range value. (242) (SQLExecDirectW)')
+[2025-02-10T06:06:19.098+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py", line 83, in transfer_data
+    source_cur.execute(query)
+pyodbc.DataError: ('22007', '[22007] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The conversion of a datetimeoffset data type to a datetime data type resulted in an out-of-range value. (242) (SQLExecDirectW)')
+[2025-02-10T06:06:19.125+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=1.06.initial_Reference, task_id=1.06.initial_Reference, run_id=manual__2025-02-10T06:06:10.957411+00:00, execution_date=20250210T060610, start_date=20250210T060613, end_date=20250210T060619
+[2025-02-10T06:06:19.161+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-10T06:06:19.163+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 26 for task 1.06.initial_Reference (('22007', '[22007] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The conversion of a datetimeoffset data type to a datetime data type resulted in an out-of-range value. (242) (SQLExecDirectW)'); 1240)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py", line 83, in transfer_data
+    source_cur.execute(query)
+pyodbc.DataError: ('22007', '[22007] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The conversion of a datetimeoffset data type to a datetime data type resulted in an out-of-range value. (242) (SQLExecDirectW)')
+[2025-02-10T06:06:19.223+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-10T06:06:19.249+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-10T06:06:19.254+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
