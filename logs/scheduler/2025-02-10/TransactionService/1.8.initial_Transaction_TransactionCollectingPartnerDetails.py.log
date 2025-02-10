@@ -903,3 +903,17 @@ DETAIL:  Key (dag_id)=(1.08.initial_TransactionCollectingPartnerDetails) already
 [2025-02-10T07:46:23.628+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:23.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-10T07:46:23.650+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:23.650+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.08.initial_TransactionCollectingPartnerDetail to None, run_after=None
 [2025-02-10T07:46:23.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py took 0.130 seconds
+[2025-02-10T07:46:54.779+0000] {processor.py:186} INFO - Started process (PID=5008) to work on /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py
+[2025-02-10T07:46:54.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py for tasks to queue
+[2025-02-10T07:46:54.784+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:54.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py
+[2025-02-10T07:46:54.829+0000] {processor.py:925} INFO - DAG(s) '1.08.initial_TransactionCollectingPartnerDetail' retrieved from /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py
+[2025-02-10T07:46:54.874+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:54.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:46:54.913+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:54.912+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.08.initial_TransactionCollectingPartnerDetail to None, run_after=None
+[2025-02-10T07:46:54.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py took 0.191 seconds
+[2025-02-10T07:47:25.775+0000] {processor.py:186} INFO - Started process (PID=5028) to work on /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py
+[2025-02-10T07:47:25.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py for tasks to queue
+[2025-02-10T07:47:25.778+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:25.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py
+[2025-02-10T07:47:25.801+0000] {processor.py:925} INFO - DAG(s) '1.08.initial_TransactionCollectingPartnerDetail' retrieved from /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py
+[2025-02-10T07:47:25.830+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:25.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:47:25.849+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:25.849+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.08.initial_TransactionCollectingPartnerDetail to None, run_after=None
+[2025-02-10T07:47:25.875+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.8.initial_Transaction_TransactionCollectingPartnerDetails.py took 0.106 seconds

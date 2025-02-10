@@ -985,3 +985,17 @@
 [2025-02-10T07:46:27.741+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:27.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-10T07:46:27.756+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:27.756+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.01.initial_bank to None, run_after=None
 [2025-02-10T07:46:27.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py took 0.109 seconds
+[2025-02-10T07:46:58.119+0000] {processor.py:186} INFO - Started process (PID=5021) to work on /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py
+[2025-02-10T07:46:58.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py for tasks to queue
+[2025-02-10T07:46:58.122+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:58.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py
+[2025-02-10T07:46:58.150+0000] {processor.py:925} INFO - DAG(s) '1.01.initial_bank' retrieved from /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py
+[2025-02-10T07:46:58.179+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:58.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:46:58.196+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:58.196+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.01.initial_bank to None, run_after=None
+[2025-02-10T07:46:58.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py took 0.109 seconds
+[2025-02-10T07:47:28.951+0000] {processor.py:186} INFO - Started process (PID=5041) to work on /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py
+[2025-02-10T07:47:28.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py for tasks to queue
+[2025-02-10T07:47:28.955+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:28.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py
+[2025-02-10T07:47:28.988+0000] {processor.py:925} INFO - DAG(s) '1.01.initial_bank' retrieved from /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py
+[2025-02-10T07:47:29.020+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:29.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:47:29.048+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:29.048+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.01.initial_bank to None, run_after=None
+[2025-02-10T07:47:29.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.1.initial_Transaction_Bank.py took 0.150 seconds

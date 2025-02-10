@@ -782,3 +782,17 @@
 [2025-02-10T07:46:27.065+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:27.064+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-10T07:46:27.083+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:27.083+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.06.initial_Reference to None, run_after=None
 [2025-02-10T07:46:27.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py took 0.104 seconds
+[2025-02-10T07:46:57.328+0000] {processor.py:186} INFO - Started process (PID=5015) to work on /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py
+[2025-02-10T07:46:57.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py for tasks to queue
+[2025-02-10T07:46:57.330+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:57.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py
+[2025-02-10T07:46:57.358+0000] {processor.py:925} INFO - DAG(s) '1.06.initial_Reference' retrieved from /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py
+[2025-02-10T07:46:57.388+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:57.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:46:57.405+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:46:57.404+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.06.initial_Reference to None, run_after=None
+[2025-02-10T07:46:57.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py took 0.112 seconds
+[2025-02-10T07:47:28.198+0000] {processor.py:186} INFO - Started process (PID=5035) to work on /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py
+[2025-02-10T07:47:28.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py for tasks to queue
+[2025-02-10T07:47:28.201+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:28.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py
+[2025-02-10T07:47:28.230+0000] {processor.py:925} INFO - DAG(s) '1.06.initial_Reference' retrieved from /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py
+[2025-02-10T07:47:28.266+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:28.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-10T07:47:28.291+0000] {logging_mixin.py:190} INFO - [2025-02-10T07:47:28.290+0000] {dag.py:4180} INFO - Setting next_dagrun for 1.06.initial_Reference to None, run_after=None
+[2025-02-10T07:47:28.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/TransactionService/1.6.initial_Transaction_Reference.py took 0.126 seconds
