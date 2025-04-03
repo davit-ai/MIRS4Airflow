@@ -13,14 +13,14 @@ default_args = {
     'owner': 'Davit Khanal',
     'start_date':datetime.now(),
     'email':'khanaldavit@gmail.com',
-    'email_on_failure': False, ## Set true in production
-    'email_on_retry': False, ## Set true in production
+    'email_on_failure': False,
+    'email_on_retry': False,
     'retries':3,
     'retry_delay' : timedelta(minutes=5)
 }
 
 
-## DESTINATION = "/home/project/airflow/dags/finalassignment"
+# DESTINATION = "/home/project/airflow/dags/finalassignment"
 DESTINATION = "/opt/airflow/dags"
 source = os.path.join(DESTINATION, "tolldata.tgz")
 vehicle_data = os.path.join(DESTINATION, "vehicle-data.csv")
@@ -109,25 +109,25 @@ unzip_data_task = PythonOperator(
     dag=dag,
 )
 
-extract_data_task = PythonOperator(
+extract_data_from_csv = PythonOperator(
     task_id='extract_data_from_csv',
     python_callable=extract_data_from_csv,
     dag=dag,
 )
 
-extract_data_task2 = PythonOperator(
+extract_data_from_tsv = PythonOperator(
     task_id='extract_data_from_tsv',
     python_callable=extract_data_from_tsv,
     dag=dag,
 )
 
-extract_data_task3 = PythonOperator(
+extract_data_from_fixed_width = PythonOperator(
     task_id='extract_data_from_fixed_width',
     python_callable=extract_data_from_fixed_width,
     dag=dag,
 )
 
-extract_data_task4 = PythonOperator(
+consolidate_data = PythonOperator(
     task_id='consolidate_data_extracted',
     python_callable=consolidate_data_extracted,
     dag=dag,
@@ -139,4 +139,4 @@ transform_data = PythonOperator(
     dag=dag,
 )
 
-unzip_data_task >> extract_data_task >> extract_data_task2 >> extract_data_task3 >> extract_data_task4 >> transform_data
+unzip_data_task >> extract_data_from_csv >> extract_data_from_tsv >> extract_data_from_fixed_width >> consolidate_data >> transform_data
