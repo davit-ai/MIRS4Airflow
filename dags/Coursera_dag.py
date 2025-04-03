@@ -19,6 +19,18 @@ default_args = {
     'retry_delay' : timedelta(minutes=5)
 }
 
+
+## DESTINATION = "/home/project/airflow/dags/finalassignment"
+DESTINATION = "/opt/airflow/dags"
+source = os.path.join(DESTINATION, "tolldata.tgz")
+vehicle_data = os.path.join(DESTINATION, "vehicle-data.csv")
+tollplaza_data = os.path.join(DESTINATION, "tollplaza-data.tsv")
+payment_data = os.path.join(DESTINATION, "payment-data.txt")
+csv_data = os.path.join(DESTINATION, "csv_data.csv")
+tsv_data = os.path.join(DESTINATION, "tsv_data.csv")
+fixed_width_data = os.path.join(DESTINATION, "fixed_width_data.csv")
+extracted_data = os.path.join(DESTINATION, "extracted_data.csv")
+transformed_data = os.path.join(DESTINATION, "staging/transformed_data.csv")
 ##Defining the dags
 
 dag = DAG(
@@ -29,55 +41,39 @@ dag = DAG(
     tags=['Coursera','ETL'],
 )
 
-
-
-
 def unzip_data():
-## File Path
-    tar_file_path = r'/opt/airflow/dags/tolldata.tgz'
-    extract_path = r'/opt/airflow/dags/extractedFiles'
-
     ## Opening file and extracting
-    with tarfile.open(tar_file_path,'r:gz') as tar:
-        tar.extractall(path=extract_path)
-        print(f"Files extracted to {extract_path}")
+    with tarfile.open(source,'r:gz') as tar:
+        tar.extractall(path=DESTINATION)
+        print(f"Files extracted to {DESTINATION}")
 
 def extract_data_from_csv():
-    ## File Path
-    file_path = r'/opt/airflow/dags/extractedFiles/vehicle-data.csv'
-
     ## Reading the csv file and extracting data
-    with open(file_path, 'r') as file:
+    with open(vehicle_data, 'r') as file:
         reader = csv.reader(file)
         for row in reader:
 
                 ## Writing the extracted data to a new CSV file
-                output_file_path = r'/opt/airflow/dags/extractedFiles/csv_data.csv'
-                with open(output_file_path, 'w', newline='') as output_file:
+                with open(csv_data, 'w', newline='') as output_file:
                     fieldnames = ['Rowid', 'Timestamp', 'Anonymized Vehicle number', 'Vehicle type']
                     writer = csv.DictWriter(output_file, fieldnames=fieldnames)
                     writer.writeheader()
                     for row in reader:
                         writer.writerow({'Rowid': row[0], 'Timestamp': row[1], 'Anonymized Vehicle number': row[2], 'Vehicle type': row[3]})
-                    print(f"Extracted data saved to {output_file_path}")
+
 
 def extract_data_from_tsv():
-        file_path = r'/opt/airflow/dags/extractedFiles/tollplaza-data.tsv'
-        output_file_path = r'/opt/airflow/dags/extractedFiles/tsv_data.csv'
-
-        with open(file_path, "r") as readfile, open(output_file_path, "w") as writefile:
+        with open(tollplaza_data, "r") as readfile, open(tsv_data, "w") as writefile:
             fieldnames = ['Number of axles', 'Tollplaza id', 'Tollplaza code']
             writer = csv.writer(writefile)
             writer.writerow(fieldnames)
             for line in readfile:
                 selected_columns = ",".join(line.strip().split("\t")[4:7])
                 writefile.write(selected_columns + "\n")
-                print(f"Extracted data saved to {output_file_path}")
+
 
 def extract_data_from_fixed_width():
-        file_path = r'/opt/airflow/dags/extractedFiles/payment-data.txt'
-        output_file_path = r'/opt/airflow/dags/extractedFiles/fixed_width_data.csv'
-        with open(file_path, "r") as readfile, open(output_file_path, "w") as writefile:
+        with open(payment_data, "r") as readfile, open(fixed_width_data, "w") as writefile:
             fieldnames = ['Type of Payment code', 'Vehicle Code']
             writer = csv.writer(writefile)
             writer.writerow(fieldnames)
@@ -88,15 +84,22 @@ def extract_data_from_fixed_width():
 
 
 def consolidate_data_extracted():
-    file_path = [r'/opt/airflow/dags/extractedFiles/csv_data.csv',
-                  r'/opt/airflow/dags/extractedFiles/tsv_data.csv',
-                  r'/opt/airflow/dags/extractedFiles/fixed_width_data.csv']
-    output_file_path = r'/opt/airflow/dags/extractedFiles/extracted_data.csv'
-
+    file_path = [csv_data,
+                  tsv_data,
+                  fixed_width_data]
     combined_csv = pd.concat([pd.read_csv(f) for f in file_path], axis=1)
-    combined_csv.to_csv(output_file_path, index=False)
-    print(f"Extracted data saved to {output_file_path} after coming all CSV")
+    combined_csv.to_csv(extracted_data, index=False)
 
+
+
+def transform_data():
+    with open(extracted_data, 'r') as file, open(transformed_data, 'w', newline='') as output_file:
+        reader = csv.reader(file)
+        writer = csv.writer(output_file)
+
+        for row in reader:
+            row[3] = row[3].upper()
+            writer.writerow(row)
 
 
 ## Defining the function to be used in the dag
@@ -130,4 +133,10 @@ extract_data_task4 = PythonOperator(
     dag=dag,
 )
 
-unzip_data_task >> extract_data_task >> extract_data_task2 >> extract_data_task3 >> extract_data_task4
+transform_data = PythonOperator(
+    task_id='transform_data',
+    python_callable=transform_data,
+    dag=dag,
+)
+
+unzip_data_task >> extract_data_task >> extract_data_task2 >> extract_data_task3 >> extract_data_task4 >> transform_data
