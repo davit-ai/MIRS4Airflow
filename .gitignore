@@ -1,1 +1,6 @@
 logs/
+logs/*.log
+logs/dag_processor_manager
+dags/__pycache__/
+dags/extractedFiles/
+*.tgz
